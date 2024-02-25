@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Header</h1>
+<br />
+<h4>Subheader</h4>
+
+<p style="min-height:50px"></p>
+
+<button onclick="clearNumbers()">Clear Numbers</button>
+<button onclick="addNumber()">Add Number</button>
+<button onclick="sumNumbers()">Sum Numbers</button>
+
+<p style="min-height:50px">
+    <div id="numbersList"> &nbsp; </div>
+</p>
+
+<br />
+<span id="counterText" style="font-weight: bold;">Counter: </span>
+<span id="counter">0</span>
+<br />
+<span id="sumText" style="font-weight: bold;">Sum: </span>
+<span id="numbersSum">Not summed</span>
